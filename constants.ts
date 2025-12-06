@@ -18,12 +18,16 @@ export const WHATSAPP_NUMBER = "918600135430"; // Country code + Number
 
 export const MENU_ITEMS: MenuItem[] = [
   // Thick Shakes
-  { id: '1', name: 'Belgian Dark Chocolate', description: 'Rich and creamy dark chocolate blend', price: 220, category: Category.THICK_SHAKES, image: '/images/thickshake1.jpg' },
-  { id: '2', name: 'Strawberry Cheesecake', description: 'Real strawberries with cheesecake bits', price: 240, category: Category.THICK_SHAKES, image: '/images/thickshake1.jpg' },
+  // { id: '1', name: 'Belgian Dark Chocolate', description: 'Rich and creamy dark chocolate blend', price: 220, category: Category.THICK_SHAKES, image: '/images/thickshake1.jpg' },
+  // { id: '2', name: 'Strawberry Cheesecake', description: 'Real strawberries with cheesecake bits', price: 240, category: Category.THICK_SHAKES, image: '/images/thickshake1.jpg' },
   
   // Waffles
   { id: '3', name: 'Nutella Overload', description: 'Crispy waffle topped with Nutella', price: 180, category: Category.WAFFLES, image: '/images/waffel.jpg' },
   { id: '4', name: 'Red Velvet', description: 'Red velvet base with white chocolate', price: 190, category: Category.WAFFLES, image: '/images/waffel.jpg' },
+
+    // Thick Shakes
+  { id: '1', name: 'Belgian Dark Chocolate', description: 'Rich and creamy dark chocolate blend', price: 220, category: Category.THICK_SHAKES, image: '/images/thickshake1.jpg' },
+  { id: '2', name: 'Strawberry Cheesecake', description: 'Real strawberries with cheesecake bits', price: 240, category: Category.THICK_SHAKES, image: '/images/thickshake1.jpg' },
 
   // Milk Shakes
   { id: '5', name: 'Classic Vanilla', description: 'Smooth vanilla bean shake', price: 150, category: Category.MILK_SHAKES, image: '/images/milkshake.jpg' },
