@@ -18,8 +18,8 @@ export const WHATSAPP_NUMBER = "918600135430"; // Country code + Number
 
 export const MENU_ITEMS: MenuItem[] = [
   // Thick Shakes
-  { id: '1', name: 'Belgian Dark Chocolate', description: 'Rich and creamy dark chocolate blend', price: 220, category: Category.THICK_SHAKES, image: '/images/thickshake1' },
-  { id: '2', name: 'Strawberry Cheesecake', description: 'Real strawberries with cheesecake bits', price: 240, category: Category.THICK_SHAKES, image: '/images/thickshake1' },
+  { id: '1', name: 'Belgian Dark Chocolate', description: 'Rich and creamy dark chocolate blend', price: 220, category: Category.THICK_SHAKES, image: '/images/thickshake.jpg' },
+  { id: '2', name: 'Strawberry Cheesecake', description: 'Real strawberries with cheesecake bits', price: 240, category: Category.THICK_SHAKES, image: '/images/thickshake.jpg' },
   
   // Waffles
   { id: '3', name: 'Nutella Overload', description: 'Crispy waffle topped with Nutella', price: 180, category: Category.WAFFLES, image: '/images/waffel.jpg' },
@@ -34,8 +34,8 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: '8', name: 'Butterscotch', description: 'Crunchy praline butterscotch', price: 100, category: Category.ICE_CREAMS, image: '/images/Ice-Cream.jpg' },
 
   // Brownies
-  { id: '9', name: 'Walnut Fudge Brownie', description: 'Warm gooey fudge with walnuts', price: 120, category: Category.BROWNIES, image: '/images/hot-sizzling-brownie.jpg' },
-  { id: '10', name: 'Sizzling Brownie', description: 'Served with vanilla ice cream', price: 180, category: Category.BROWNIES, image: '/images/hot-sizzling-brownie.jpg' },
+  { id: '9', name: 'Walnut Fudge Brownie', description: 'Warm gooey fudge with walnuts', price: 120, category: Category.BROWNIES, image: '/images/hotSizzlingBrownie.jpg' },
+  { id: '10', name: 'Sizzling Brownie', description: 'Served with vanilla ice cream', price: 180, category: Category.BROWNIES, image: '/images/hotSizzlingBrownie.jpg' },
 
   // Hot Brew
   { id: '11', name: 'Cappuccino', description: 'Espresso with steamed milk foam', price: 140, category: Category.HOT_BREW, image: '/images/hot-brew.jpg' },
@@ -46,7 +46,7 @@ export const MENU_ITEMS: MenuItem[] = [
   { id: '14', name: 'Vietnam Cold Coffee', description: 'Cold brew with condensed milk', price: 180, category: Category.COLD_BREW, image: '/images/Cold-Coffee.jpg' },
 
   // Jamun Shots
-  { id: '15', name: 'Classic Jamun Shot', description: 'Pure jamun pulp with spice mix', price: 80, category: Category.JAMMUN_SHOTS, image: '/images/jamunshots.jpg' },
+  { id: '15', name: 'Classic Jamun Shot', description: 'Pure jamun pulp with spice mix', price: 80, category: Category.JAMMUN_SHOTS, image: '/images/jammunShots.jpg' },
 
   // Hot Chocolate
   { id: '16', name: 'Classic Hot Cocoa', description: 'Rich cocoa with marshmallows', price: 190, category: Category.HOT_CHOCOLATE, image: '/images/hotChocolate.jpg' },
